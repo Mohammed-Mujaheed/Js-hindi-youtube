@@ -7,7 +7,8 @@ const score = 400
 // console.log(typeof score)
 
 let balance = new Number(100)
-// console.log(balance);
+console.log(balance);
+console.log(typeof balance);
 
 // console.log(balance.toString().length);
 // console.log(balance.toString())
@@ -25,13 +26,14 @@ const hundreds = 1000000
 //MATH
 
 // console.log(Math)
+
 // console.log(Math.abs(-3))
 // console.log(Math.ceil(4.3))
 // console.log(Math.floor(4.9))
 // console.log(Math.min(3, 5, 2, 6,))
 // console.log(Math.max(3, 5, 2, 6,))
 
-console.log(Math.random())
+// console.log(Math.random())
 // console.log(Math.random()*10)
 // console.log((Math.random()*10) + 1)
 // console.log(Math.floor(Math.random()*10) + 1);
@@ -39,6 +41,6 @@ console.log(Math.random())
 let min = 10
 let max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min )
-console.log(Math.floor(Math.random() * (max - min + 1 )) + min )
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min )
+// console.log(Math.floor(Math.random() * (max - min + 1 )) + min )
 // console.log((Math.random() * (20 - 10 + 1)) + min )
