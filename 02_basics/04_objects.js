@@ -55,6 +55,51 @@ const users = [
     },
 ]
 
-console.log(tinderUser)
-console.log(users[1])
-console.log(users[1].email)
+// console.log(tinderUser)
+// console.log(users[1])
+// console.log(users[1].email)
+
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(Object.entries(users[1]));
+
+
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('mujju'));
+
+const course = {
+    coursename: "Js in hindi",
+    price:"999",
+    courseInstructor:"Hitesh"
+}
+
+// console.log(course.courseInstructor)
+
+const {courseInstructor:sir} = course
+const {coursename:subjeect} = course
+// console.log(courseInstructor)
+console.log(sir);
+console.log(subjeect)
+
+// console.log(course)
+// console.log(Object.keys(course))
+// console.log(Object.values(course))
+// console.log(Object.entries(course))
+
+let MUJJU = {
+    name:"Mohammed Mujaheed",
+    USN: "3PD21EI007",
+    Locality: "gulbarga"
+}
+
+// Location = "gulbarga"
+
+let{name:n, USN:u, Locality:l} = MUJJU
+let{} = course
+
+console.log(MUJJU)
+console.log(n)
+console.log(u)
+console.log(l)
