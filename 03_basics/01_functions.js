@@ -47,24 +47,37 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 
+// console.log(loginUserMessage(NaN));
 // console.log(loginUserMessage(""));
-// console.log(loginUserMessage());
+// console.log(loginUserMessage(null));
+// console.log(loginUserMessage(0));
+// console.log(loginUserMessage());  // all above lines are same output 
+                                // bcoz all exhibit same type i.e undefined
 
 function addnums(a,b){
-    return a+b;
+    // return a+b;
+    let sum = a + b;
+
+    console.log(sum);
 }
- let sum = addnums(5,6);
+
+// addnums(3,4)
+
+//  let sum = addnums(5,6);
 //  console.log(sum);
+// console.log(addnums(2,5))
+
 
 // some medium level function operation
 
-function calculateCarPrice(val1, val2, ...num1){
+function calculateCarPrice(...num1){
     return num1
 
 }
 
-console.log(calculateCarPrice(200, 400, 600, 5200));
-// console.log(calculateCarPrice(2));
+// console.log(calculateCarPrice(200, 400, 600, 5200));
+// console.log(calculateCarPrice());
+// console.log(calculateCarPrice(200, 500));
 
 const user = {
     username: "Mujju",
@@ -85,7 +98,7 @@ const myNewArray = [100, 200, 500]
 
 function returnSecondValue(getArray){
     
-    return getArray[2]
+    return getArray[1]
 }
 
 console.log(returnSecondValue(myNewArray))
