@@ -80,7 +80,7 @@ if(true) {
   // if(username === "mj-bhai"){  //or
   if(true){
     const website = " youtube"
-    // console.log(username + website);
+    console.log(username + website);
   }
 
   //  else{
@@ -93,9 +93,11 @@ if(true) {
 
 // console.log(username)
 
+
+
 // ************************ Interesting **********************
 
-// console.log(addone(5))
+console.log(addone(5))
 function addone(num){ 
   return num + 1
  
@@ -103,13 +105,14 @@ function addone(num){
 
 // console.log(addTwo(5))
 const addTwo = function(num){  // it is generally called as expression 
-                              // when if fnc is assign to var/const
+                               // when if fnc is assign to var/const
     return num + 2
 }
 
 
 
 // Function Declaration
+/*
 function greet(name) {
   return "Hello, " + name + "!";
 }
@@ -127,4 +130,5 @@ const greetArrow = (name) => "Hello, " + name + "!";
 console.log(greetArrow("Mujju"))
 
 
-  
+  */
+
