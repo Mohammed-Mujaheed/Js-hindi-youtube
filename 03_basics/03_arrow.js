@@ -24,6 +24,7 @@ const user = {
     
 // chai()
 
+
 // const chai2 = function(){
 //     let username2 = "amujju"
 //     console.log(username2); // working as expected
@@ -51,9 +52,9 @@ const user = {
     
 // const addTwo = (num1, num2) => ( num1 + num2 ) //implicit
 
-// const addTwo = (num1, num2) => {username: "hitesh"} 
+const addTwo = (num1, num2) => {username: "hitesh"} 
 // const addTwo2 = (num1, num2) => ({username: "hitesh"}) // o/p will be return in object
-// console.log(addTwo(7,3));
+console.log(addTwo(7,3));
 
 // console.log(addTwo2(7,3));
 
