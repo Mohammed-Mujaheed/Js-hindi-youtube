@@ -23,12 +23,12 @@
 //     console.log(`${num1} is a falsy value`)
 // }
 
-const emptyObj = {}
+// const emptyObj = {}
 
-if(Object.keys(emptyObj).length === 0){
-    // console.log("Object is empty");
+// if(Object.keys(emptyObj).length === 0){
+//     console.log("Object is empty");
 
-}
+// }
 
  //or
 // if(Object.values(emptyObj).length === 0){
@@ -40,7 +40,7 @@ if(Object.keys(emptyObj).length === 0){
 let val1;
 //  val1 = 5 ?? 10
 //  val1 = null ?? 10
-//  val1 = undefined ?? 15
+ val1 = undefined ?? 15
 // val1 = null ?? 10 ?? 20
 
 // console.log(val1)
@@ -48,5 +48,21 @@ let val1;
 // Terniary Operator 
 //condition ? true : false
 
-const iceTeaPrice = 100
-iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+// const iceTeaPrice = 100
+// iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+
+const marks = 98;
+const grade =
+     marks >= 90 
+      ? "A" 
+      : marks >= 90 
+      ? "B"
+      : marks >= 80
+      ? "C"
+      : marks >= 70
+      ? "D"
+      : marks >= 60
+      ? "E"
+      : "F";
+      
+console.log(grade)
