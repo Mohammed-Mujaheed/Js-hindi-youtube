@@ -43,10 +43,11 @@ for (let i = 0; i <= 10; i++) {
 // }
 
 let r1 = [0, 1, 2, 3, 4, 5, 6, 7, 5, 8, 9, 10 ] 
-for (let index = 0; index <= r1.length; index++) {
+for (let index = 0; index <= r1.length ; index++) {
     if (index == 5) {
         console.log(`Detected 5`);
-        continue
+        // continue
+        break
     }
    console.log(`Value of i is ${index}`);
    
