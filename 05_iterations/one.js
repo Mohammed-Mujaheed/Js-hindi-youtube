@@ -2,14 +2,14 @@
 // for (let index = 0; index < array.length; index++) {
 //     const element = array[index];
 
-// for (let i = 0; i <= 10; i++) {
-//     const element = i;
-//     if(element == 7){
-//         console.log("7 is the worst number");
-
-//     }
-//     console.log(element);
-// }
+for (let i = 0; i <= 10; i++) {
+    const element = i;
+    // if(element == 7){
+    //     console.log("7 is the worst number");
+    // }
+    console.log(element);
+    // console.log(`${i}`);
+}
 
 for (let i = 0; i <= 10; i++) {
     // console.log(`Outer loop value: ${i}`);
@@ -49,6 +49,6 @@ for (let index = 0; index <= r1.length ; index++) {
         // continue
         break
     }
-   console.log(`Value of i is ${index}`);
+//    console.log(`Value of i is ${index}`);
    
 }
