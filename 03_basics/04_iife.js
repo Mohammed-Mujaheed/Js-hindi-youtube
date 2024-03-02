@@ -19,7 +19,7 @@
 } )('hitesh');
 
 (() => {
-  // console.log(`mujju lives in India`)
+  console.log(`mujju lives in India`)
 })()
 
 
