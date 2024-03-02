@@ -44,15 +44,16 @@ const user = {
 
 // chai()
 
-const addTwo = (num1, num2) => {
-        return num1 + num2      //explicit
-    }
+// const addTwo = (num1, num2) => {
+//         return num1 + num2      //explicit (return is mandatory)
+    // }
      
 // const addTwo = (num1, num2) =>  num1 + num2 
     
-// const addTwo = (num1, num2) => ( num1 + num2 ) //implicit
+const addTwo = (num1, num2) => ( num1 + num2 ) //implicit (no return mandatory)
 
 // const addTwo = (num1, num2) => {username: "hitesh"} 
+
 // const addTwo2 = (num1, num2) => ({username: "hitesh"}) // o/p will be return in object
 console.log(addTwo(7,3));
 

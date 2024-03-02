@@ -55,7 +55,7 @@ map.set('USA', "United States of America")
 map.set('Fr', "France")
 // map.set('IN', "India")
 
-// console.log(map);
+console.log(map);
 
 for (const [key,value ]of map) {
     // console.log(key, '->', value);
@@ -70,12 +70,12 @@ const myObject = {
 }
 
 // map.delete('USA')
-console.log(map.get('USA'))
+// console.log(map.get('USA'))
 
 
 //usually object cant excute directly as maps there is another method to run it is below
 for (const [key, value] of Object.entries(myObject)) {
     // console.log(key, ':-', value);
-    console.log(`${key}: ${value}`);
+    // console.log(`${key}: ${value}`);
     
 }
