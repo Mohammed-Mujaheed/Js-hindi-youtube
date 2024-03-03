@@ -3,20 +3,22 @@ const array1 = [1, 2, 3, 4]
 //0+1+2+3+4
 const initialValue = 0;
 const sumWithInitial = array1.reduce(
-(accumulator, currentvalue) => accumulator + currentvalue,
-    initialValue,
-);
+function(accumulator, currentvalue){
+    // console.log(`accumulator: ${accumulator} and currentvalue: ${currentvalue}`);
+    return accumulator + currentvalue
+
+},initialValue);
+
 // console.log(sumWithInitial);
 
 const myNums = [1, 2, 3]
 
-const myTotal = myNums.reduce(function (acc, currval) {
-    // console.log(`acc: ${acc} and currval: ${currval}`);
+let myTotal = myNums.reduce(function (acc, currval) {
+    console.log(`acc: ${acc} and currval: ${currval}`);
     return acc + currval
+},0)
 
-}, 0)
-
-// console.log(myTotal);
+console.log(myTotal);
 
 // real world example
 const shoppingCart = [
@@ -41,7 +43,9 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce( (acc, item) =>
  acc + item.price, 0)
 
-console.log(priceToPay)
+// console.log(priceToPay)
+
+
 
 
 
